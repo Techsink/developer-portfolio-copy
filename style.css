@@ -9,16 +9,16 @@ span{
     color: orange;
 }
 .section{
-    display: flex;
-    
+
 }
 .half-width{
     float: left;
     width: 40%;
-    padding-left: 5%;
+    padding-left: 4%;
+    margin-left: 5%;
 }
 .half-width img{
-    margin-top: 50px;
+    margin-top: 30px;
     width: 100%;
 }
 .link-button{
@@ -33,4 +33,45 @@ span{
     background-repeat: no-repeat;
     height: 500px;
     width: 100%;
+    margin-bottom: 150px;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-position-x: right;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    margin-bottom: 150px;
+}
+h2{
+    font-size: 40px;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    display: flex;
+    float: left;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+    padding: 20px;
+    box-shadow: 10px 10px 40px gray;
+}
+#full-web-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(red, blue);
+    border-image-slice: 1;
+}
+#baby-web-development{
+    border-left: 7px solid;
+    border-image: linear-gradient(yellow, gray);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
